@@ -1,0 +1,11 @@
+.secondHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 50px;
+    background-color: #eff2f5;
+    width: 100%;
+}
