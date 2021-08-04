@@ -25,7 +25,7 @@ const reducer = (state, action) => {
                 ...state,
                 basket: newBasket
             }
-        case "REMOVEALL":
+        case "REMOVE_ALL":
             return {
                 ...state,
                 basket: []

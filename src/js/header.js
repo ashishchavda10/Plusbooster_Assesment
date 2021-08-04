@@ -1,6 +1,6 @@
 import React from "react";
-import "./Header.css";
-import Search from "./Search";
+import "../css/mainHeader.css";
+import Search from "./search";
 
 function Header({ searchQuery, setSearchQuery }) {
     return (<>

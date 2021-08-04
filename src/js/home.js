@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
+import '../css/home.css';
 import ThingsContext from './context';
-import './Home.css';
-import Product from './Product';
+import Product from './product';
 
 function Home() {
 

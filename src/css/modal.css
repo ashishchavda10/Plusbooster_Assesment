@@ -18,6 +18,13 @@
     padding:10px;
 }
 
+.modal-header {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 49em;
+    cursor: pointer;
+}
+
 .modal-title{
     padding: 4px;
     font-size: 16px;

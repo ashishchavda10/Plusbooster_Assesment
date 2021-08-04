@@ -1,7 +1,7 @@
 import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
 import React from 'react';
-import './Product.css';
-import { useStateValue } from './StateProvider';
+import '../css/product.css';
+import { useStateValue } from './stateProvider';
 
 function Product({ id, title, image }) {
     const [{ basket }, dispatch] = useStateValue();

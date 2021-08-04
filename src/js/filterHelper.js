@@ -5,7 +5,6 @@ const filterPosts = (lists, query) => {
     }
 
     return lists.filter((list) => {
-        console.log('inside filter');
         const postName = list.title.toLowerCase();
         return postName.includes(query);
     });

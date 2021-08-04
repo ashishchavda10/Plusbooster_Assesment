@@ -1,7 +1,7 @@
 import { Input, InputAdornment } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
 import React from 'react';
-import './input.css';
+import '../css/input.css';
 
 
 
@@ -27,17 +27,6 @@ const Search = ({ searchQuery, setSearchQuery }) => (
 
     />
 
-    // <div className="search-input">
-    //     <SearchIcon />
-    //     <input
-    //         value={searchQuery}
-    //         onInput={e => setSearchQuery(e.target.value)}
-    //         type="text"
-    //         id="header-search"
-    //         placeholder="Enter keyword to search product"
-    //         name="s"
-    //     />
-    // </div>
 
 );
 

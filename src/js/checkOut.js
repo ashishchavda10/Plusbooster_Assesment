@@ -1,7 +1,7 @@
 import React from 'react';
-import Checkproduct from './Checkproduct';
-import './Home.css';
-import { useStateValue } from './StateProvider';
+import '../css/home.css';
+import Checkproduct from './checkProduct';
+import { useStateValue } from './stateProvider';
 
 function ChekOut() {
 

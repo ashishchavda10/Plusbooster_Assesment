@@ -1,6 +1,6 @@
 import DeleteOutlineOutlinedIcon from '@material-ui/icons/DeleteOutlineOutlined';
 import React from 'react';
-import { useStateValue } from './StateProvider';
+import { useStateValue } from './stateProvider';
 
 function Checkproduct({ id, image, title }) {
     const [{ basket }, dispatch] = useStateValue();
