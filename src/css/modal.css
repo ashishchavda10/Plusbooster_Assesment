@@ -19,9 +19,8 @@
 }
 
 .modal-header {
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 49em;
+    display: flex;
+    justify-content: space-between;
     cursor: pointer;
 }
 

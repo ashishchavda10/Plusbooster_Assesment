@@ -1,7 +1,9 @@
+
 import { Input, InputAdornment } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
 import React from 'react';
 import '../css/input.css';
+
 
 
 
@@ -23,7 +25,7 @@ const Search = ({ searchQuery, setSearchQuery }) => (
             </InputAdornment>
         }
         disableUnderline={true}
-        style={{ fontSize: 13, color: "grey" }}
+        style={{ fontSize: 13, color: "grey", fontFamily: 'Open Sans' }}
 
     />
 
