@@ -3,7 +3,7 @@ export const initialState = {
 };
 
 const reducer = (state, action) => {
-    
+
     switch (action.type) {
         case "ADD_TO_BASKET":
             return {
@@ -25,8 +25,13 @@ const reducer = (state, action) => {
                 ...state,
                 basket: newBasket
             }
-            default:
-              return state;
+        case "REMOVEALL":
+            return {
+                ...state,
+                basket: []
+            }
+        default:
+            return state;
     }
 };
 

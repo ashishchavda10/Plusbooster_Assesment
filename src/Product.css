@@ -1,4 +1,35 @@
 img {
-    width: 40px;
-    height: 50px;
+    width: 38;
+    height: 42px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+
+
+
+.image-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.product-item-container{
+    width: 100%;
+    display: flex;
+    padding:12px 0px;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.product-title{
+    width: 68%;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Open Sans',serif;
 }
