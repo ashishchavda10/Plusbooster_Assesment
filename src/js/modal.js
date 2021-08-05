@@ -49,7 +49,6 @@ function Modal(props) {
 
 
     const { search } = window.location;
-    console.log(window.location)
     const query = new URLSearchParams(search).get('s');
     const [searchQuery, setSearchQuery] = useState(query || '');
     const filteredLists = filterPosts(lists, searchQuery);

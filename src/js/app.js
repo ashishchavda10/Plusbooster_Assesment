@@ -13,17 +13,18 @@ function App() {
 
 
   function resetValuesOnClose() {
-
     setShow(false);
+    console.log("inside cancel function" + selectedItem.length);
     if (selectedItem.length <= 0) {
       dispatch({ type: 'REMOVE_ALL' })
+      selectedItem = basket;
+      console.log("inside cancel->clear function" + selectedItem.length);
     }
   }
 
   function handleCallback(childdata) {
     setShow(childdata);
     selectedItem = basket
-
   }
 
   return (

@@ -1,6 +1,5 @@
 const filterPosts = (lists, query) => {
     if (!query) {
-        console.log('In empty query');
         return lists;
     }
 
